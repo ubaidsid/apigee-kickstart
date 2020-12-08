@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '977c3f5bbc947ccc42a59e445ed5445406f2aea7',
+    'reference' => '04e6306e4ce45214debe92ce6ed45801593c9a16',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -37,6 +37,16 @@
       array (
       ),
       'reference' => 'b9c31def6a83f84b4d4a40d35996d375755f0e08',
+    ),
+    'backstrap/jquery-ui-touch-punch' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+        0 => '9999999-dev',
+      ),
+      'reference' => 'db7f31ee8e430ccf029d6af965483314b772b03f',
     ),
     'clue/stream-filter' => 
     array (
@@ -879,7 +889,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '977c3f5bbc947ccc42a59e445ed5445406f2aea7',
+      'reference' => '04e6306e4ce45214debe92ce6ed45801593c9a16',
     ),
     'drupal/link' => 
     array (
@@ -1317,6 +1327,15 @@
       ),
       'reference' => 'feb0e820b8436873675fd3aca04f3728eb2185cb',
     ),
+    'furf/jquery-ui-touch-punch' => 
+    array (
+      'pretty_version' => 'v0.2.3',
+      'version' => '0.2.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => NULL,
+    ),
     'guzzlehttp/guzzle' => 
     array (
       'pretty_version' => '6.5.4',
@@ -1343,6 +1362,15 @@
       array (
       ),
       'reference' => '239400de7a173fe9901b9ac7c06497751f00727a',
+    ),
+    'kriswallsmith/assetic' => 
+    array (
+      'pretty_version' => 'v1.4.0',
+      'version' => '1.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e911c437dbdf006a8f62c2f59b15b2d69a5e0aa1',
     ),
     'laminas/laminas-diactoros' => 
     array (
@@ -1619,6 +1647,15 @@
       array (
       ),
       'reference' => '120b605dfeb996808c31b6477290a714d356e822',
+    ),
+    'robloach/component-installer' => 
+    array (
+      'pretty_version' => '0.0.12',
+      'version' => '0.0.12.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1864f25db21fc173e02a359f646acd596c1b0460',
     ),
     'roundcube/plugin-installer' => 
     array (
