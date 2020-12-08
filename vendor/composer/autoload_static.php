@@ -4,20 +4,21 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
+class ComposerStaticInit667212ad4cf3387aea1300486c3f2bf1
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
-        '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
-        'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        'bd9634f2d41831496de0d3dfe4c94881' => __DIR__ . '/..' . '/symfony/polyfill-php56/bootstrap.php',
         '7e9bd612cc444b3eed788ebbe46263a0' => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src/autoload.php',
-        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '8825ede83f2f289127722d4e842cf7e8' => __DIR__ . '/..' . '/symfony/polyfill-intl-grapheme/bootstrap.php',
+        'e69f7f6ee287b969198c3c9d6777bd38' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/bootstrap.php',
+        'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
+        '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
@@ -40,9 +41,8 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         '751a5a3f463e4be759be31748b61737c' => __DIR__ . '/..' . '/laminas/laminas-diactoros/src/functions/parse_cookie_header.legacy.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '9c67151ae59aff4788964ce8eb2a0f43' => __DIR__ . '/..' . '/clue/stream-filter/src/functions_include.php',
-        '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
         '8cff32064859f4559445b89279f3199c' => __DIR__ . '/..' . '/php-http/message/src/filters.php',
-        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        'ce89ac35a6c330c55f4710717db9ff78' => __DIR__ . '/..' . '/kriswallsmith/assetic/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -54,13 +54,8 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         array (
             'cweagans\\Composer\\' => 18,
         ),
-        'X' => 
-        array (
-            'XdgBaseDir\\' => 11,
-        ),
         'W' => 
         array (
-            'Webmozart\\PathUtil\\' => 19,
             'Webmozart\\Assert\\' => 17,
         ),
         'T' => 
@@ -70,8 +65,11 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         ),
         'S' => 
         array (
+            'Symfony\\Polyfill\\Util\\' => 22,
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Symfony\\Polyfill\\Php72\\' => 23,
+            'Symfony\\Polyfill\\Php70\\' => 23,
+            'Symfony\\Polyfill\\Php56\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Intl\\Normalizer\\' => 33,
             'Symfony\\Polyfill\\Intl\\Idn\\' => 26,
@@ -79,7 +77,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
             'Symfony\\Polyfill\\Iconv\\' => 23,
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Component\\Yaml\\' => 23,
-            'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Validator\\' => 28,
             'Symfony\\Component\\Translation\\' => 30,
             'Symfony\\Component\\String\\' => 25,
@@ -92,8 +89,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
             'Symfony\\Component\\Inflector\\' => 28,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
-            'Symfony\\Component\\Finder\\' => 25,
-            'Symfony\\Component\\Filesystem\\' => 29,
             'Symfony\\Component\\EventDispatcher\\' => 34,
             'Symfony\\Component\\DependencyInjection\\' => 38,
             'Symfony\\Component\\Debug\\' => 24,
@@ -101,19 +96,12 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
             'Symfony\\Component\\ClassLoader\\' => 30,
             'Symfony\\Cmf\\Component\\Routing\\' => 30,
             'Symfony\\Bridge\\PsrHttpMessage\\' => 30,
-            'SelfUpdate\\' => 11,
-        ),
-        'R' => 
-        array (
-            'Robo\\' => 5,
         ),
         'P' => 
         array (
-            'Psy\\' => 4,
             'Psr\\Log\\' => 8,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
-            'PhpParser\\' => 10,
             'PantheonSystems\\CDNBehatHelpers\\' => 32,
         ),
         'M' => 
@@ -124,16 +112,11 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         'L' => 
         array (
             'League\\Period\\' => 14,
-            'League\\Container\\' => 17,
             'Laminas\\ZendFrameworkBridge\\' => 28,
             'Laminas\\Stdlib\\' => 15,
             'Laminas\\Feed\\' => 13,
             'Laminas\\Escaper\\' => 16,
             'Laminas\\Diactoros\\' => 18,
-        ),
-        'I' => 
-        array (
-            'Interop\\Container\\' => 18,
         ),
         'H' => 
         array (
@@ -149,8 +132,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
             'GuzzleHttp\\Psr7\\' => 16,
             'GuzzleHttp\\Promise\\' => 19,
             'GuzzleHttp\\' => 11,
-            'Grasmash\\YamlExpander\\' => 22,
-            'Grasmash\\Expander\\' => 18,
         ),
         'F' => 
         array (
@@ -162,33 +143,22 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         ),
         'D' => 
         array (
-            'Drush\\Internal\\' => 15,
             'Drush\\Commands\\radix\\' => 21,
-            'Drush\\' => 6,
             'Drupal\\redis\\' => 13,
             'Drupal\\Driver\\' => 14,
             'Drupal\\Core\\' => 12,
+            'Drupal\\Composer\\Plugin\\VendorHardening\\' => 39,
+            'Drupal\\Composer\\Plugin\\Scaffold\\' => 32,
+            'Drupal\\Composer\\Plugin\\ProjectMessage\\' => 38,
             'Drupal\\Component\\' => 17,
-            'DrupalComposer\\DrupalScaffold\\' => 30,
-            'DrupalCodeGenerator\\' => 20,
-            'Doctrine\\Persistence\\' => 21,
-            'Doctrine\\Inflector\\' => 19,
             'Doctrine\\Common\\Lexer\\' => 22,
             'Doctrine\\Common\\Inflector\\' => 26,
-            'Doctrine\\Common\\Collections\\' => 28,
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
         ),
         'C' => 
         array (
-            'Consolidation\\SiteProcess\\' => 26,
-            'Consolidation\\SiteAlias\\' => 24,
-            'Consolidation\\OutputFormatters\\' => 31,
-            'Consolidation\\Log\\' => 18,
-            'Consolidation\\Filter\\' => 21,
-            'Consolidation\\Config\\' => 21,
-            'Consolidation\\AnnotatedCommand\\' => 31,
             'Composer\\Semver\\' => 16,
             'Composer\\Installers\\' => 20,
             'CommerceGuys\\Intl\\' => 18,
@@ -213,14 +183,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         array (
             0 => __DIR__ . '/..' . '/cweagans/composer-patches/src',
         ),
-        'XdgBaseDir\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/dnoegel/php-xdg-base-dir/src',
-        ),
-        'Webmozart\\PathUtil\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/webmozart/path-util/src',
-        ),
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
@@ -233,6 +195,10 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         array (
             0 => __DIR__ . '/..' . '/typo3/phar-stream-wrapper/src',
         ),
+        'Symfony\\Polyfill\\Util\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-util',
+        ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php80',
@@ -240,6 +206,14 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         'Symfony\\Polyfill\\Php72\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php72',
+        ),
+        'Symfony\\Polyfill\\Php70\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php70',
+        ),
+        'Symfony\\Polyfill\\Php56\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/polyfill-php56',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
@@ -268,10 +242,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
-        ),
-        'Symfony\\Component\\VarDumper\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/var-dumper',
         ),
         'Symfony\\Component\\Validator\\' => 
         array (
@@ -321,14 +291,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         array (
             0 => __DIR__ . '/..' . '/symfony/http-foundation',
         ),
-        'Symfony\\Component\\Finder\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/finder',
-        ),
-        'Symfony\\Component\\Filesystem\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/filesystem',
-        ),
         'Symfony\\Component\\EventDispatcher\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/event-dispatcher',
@@ -357,18 +319,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         array (
             0 => __DIR__ . '/..' . '/symfony/psr-http-message-bridge',
         ),
-        'SelfUpdate\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/self-update/src',
-        ),
-        'Robo\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/robo/src',
-        ),
-        'Psy\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psy/psysh/src',
-        ),
         'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
@@ -380,10 +330,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
-        'PhpParser\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
         'PantheonSystems\\CDNBehatHelpers\\' => 
         array (
@@ -400,10 +346,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         'League\\Period\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/period/src',
-        ),
-        'League\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/league/container/src',
         ),
         'Laminas\\ZendFrameworkBridge\\' => 
         array (
@@ -424,10 +366,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         'Laminas\\Diactoros\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-diactoros/src',
-        ),
-        'Interop\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/container-interop/container-interop/src/Interop/Container',
         ),
         'Http\\Promise\\' => 
         array (
@@ -466,33 +404,17 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
-        'Grasmash\\YamlExpander\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/grasmash/yaml-expander/src',
-        ),
-        'Grasmash\\Expander\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/grasmash/expander/src',
-        ),
         'Firebase\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/firebase/php-jwt/src',
         ),
         'Egulias\\EmailValidator\\' => 
         array (
-            0 => __DIR__ . '/..' . '/egulias/email-validator/src',
-        ),
-        'Drush\\Internal\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/drush/drush/src/internal-forks',
+            0 => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator',
         ),
         'Drush\\Commands\\radix\\' => 
         array (
             0 => __DIR__ . '/../..' . '/web/themes/contrib/radix/Commands/radix',
-        ),
-        'Drush\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/drush/drush/src',
         ),
         'Drupal\\redis\\' => 
         array (
@@ -506,25 +428,21 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         array (
             0 => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core',
         ),
+        'Drupal\\Composer\\Plugin\\VendorHardening\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/drupal/core-vendor-hardening',
+        ),
+        'Drupal\\Composer\\Plugin\\Scaffold\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/drupal/core-composer-scaffold',
+        ),
+        'Drupal\\Composer\\Plugin\\ProjectMessage\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/drupal/core-project-message',
+        ),
         'Drupal\\Component\\' => 
         array (
             0 => __DIR__ . '/../..' . '/web/core/lib/Drupal/Component',
-        ),
-        'DrupalComposer\\DrupalScaffold\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/drupal-composer/drupal-scaffold/src',
-        ),
-        'DrupalCodeGenerator\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src',
-        ),
-        'Doctrine\\Persistence\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Persistence',
-        ),
-        'Doctrine\\Inflector\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
         ),
         'Doctrine\\Common\\Lexer\\' => 
         array (
@@ -533,10 +451,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         'Doctrine\\Common\\Inflector\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
-        ),
-        'Doctrine\\Common\\Collections\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections',
         ),
         'Doctrine\\Common\\Cache\\' => 
         array (
@@ -549,37 +463,6 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         'Doctrine\\Common\\' => 
         array (
             0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
-            1 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
-            2 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Common',
-            3 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
-        ),
-        'Consolidation\\SiteProcess\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/site-process/src',
-        ),
-        'Consolidation\\SiteAlias\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/site-alias/src',
-        ),
-        'Consolidation\\OutputFormatters\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/output-formatters/src',
-        ),
-        'Consolidation\\Log\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/log/src',
-        ),
-        'Consolidation\\Filter\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/filter-via-dot-access-data/src',
-        ),
-        'Consolidation\\Config\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/config/src',
-        ),
-        'Consolidation\\AnnotatedCommand\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/consolidation/annotated-command/src',
         ),
         'Composer\\Semver\\' => 
         array (
@@ -635,9 +518,9 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
         ),
         'D' => 
         array (
-            'Dflydev\\DotAccessData' => 
+            'Doctrine\\Common\\Collections\\' => 
             array (
-                0 => __DIR__ . '/..' . '/dflydev/dot-access-data/src',
+                0 => __DIR__ . '/..' . '/doctrine/collections/lib',
             ),
         ),
         'C' => 
@@ -646,9 +529,17 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
             array (
                 0 => __DIR__ . '/..' . '/pear/console_getopt',
             ),
+            'ComponentInstaller' => 
+            array (
+                0 => __DIR__ . '/..' . '/robloach/component-installer/src',
+            ),
         ),
         'A' => 
         array (
+            'Assetic' => 
+            array (
+                0 => __DIR__ . '/..' . '/kriswallsmith/assetic/src',
+            ),
             'Archive_Tar' => 
             array (
                 0 => __DIR__ . '/..' . '/pear/archive_tar',
@@ -661,18 +552,25 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
     );
 
     public static $classMap = array (
+        'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
+        'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'DivisionByZeroError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/DivisionByZeroError.php',
         'Drupal' => __DIR__ . '/../..' . '/web/core/lib/Drupal.php',
-        'DrupalFinder\\DrupalFinder' => __DIR__ . '/..' . '/webflo/drupal-finder/src/DrupalFinder.php',
         'Drupal\\Component\\Utility\\Timer' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Component/Utility/Timer.php',
         'Drupal\\Component\\Utility\\Unicode' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Component/Utility/Unicode.php',
         'Drupal\\Core\\Database\\Database' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Database/Database.php',
         'Drupal\\Core\\DrupalKernel' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/DrupalKernel.php',
         'Drupal\\Core\\DrupalKernelInterface' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/DrupalKernelInterface.php',
         'Drupal\\Core\\Site\\Settings' => __DIR__ . '/../..' . '/web/core/lib/Drupal/Core/Site/Settings.php',
+        'Error' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/Error.php',
         'Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Resources/stubs/Normalizer.php',
         'PEAR_Exception' => __DIR__ . '/..' . '/pear/pear_exception/PEAR/Exception.php',
+        'ParseError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ParseError.php',
+        'SessionUpdateTimestampHandlerInterface' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/SessionUpdateTimestampHandlerInterface.php',
         'Stringable' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Stringable.php',
+        'TypeError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/TypeError.php',
         'UnhandledMatchError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php',
         'ValueError' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/ValueError.php',
     );
@@ -680,11 +578,11 @@ class ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a::$fallbackDirsPsr0;
-            $loader->classMap = ComposerStaticInit20f3aa1b333b284d0f4681318f810b5a::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit667212ad4cf3387aea1300486c3f2bf1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit667212ad4cf3387aea1300486c3f2bf1::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit667212ad4cf3387aea1300486c3f2bf1::$prefixesPsr0;
+            $loader->fallbackDirsPsr0 = ComposerStaticInit667212ad4cf3387aea1300486c3f2bf1::$fallbackDirsPsr0;
+            $loader->classMap = ComposerStaticInit667212ad4cf3387aea1300486c3f2bf1::$classMap;
 
         }, null, ClassLoader::class);
     }
