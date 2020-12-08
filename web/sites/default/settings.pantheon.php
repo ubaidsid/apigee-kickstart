@@ -70,13 +70,7 @@ $is_installer_url = (strpos($_SERVER['SCRIPT_NAME'], '/core/install.php') === 0)
  * at https://www.drupal.org/node/2431247
  *
  */
-if ($is_installer_url) {
-  $settings['config_sync_directory'] =  'sites/default/files';
-}
-else {
-  $settings['config_sync_directory'] = 'sites/default/config';
-}
-
+$settings['config_sync_directory'] = dirname(DRUPAL_ROOT) . '/config';
 
 /**
  * Allow Drupal 8 to Cleanly Redirect to Install.php For New Sites.
