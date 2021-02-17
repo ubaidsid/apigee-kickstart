@@ -6,7 +6,6 @@ web/files/*
 # Avoid accidental modification of pantheon.upstream.yml in sites
 # created from this upstream
 web/pantheon.upstream.yml
-web/pantheon.yml
 
 # Pantheon commits a settings.php for environment-specific settings.
 # Place local settings in settings.local.php
