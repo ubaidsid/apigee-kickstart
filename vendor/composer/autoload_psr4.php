@@ -79,7 +79,7 @@ return array(
     'JsonSchema\\' => array($vendorDir . '/justinrainbow/json-schema/src/JsonSchema'),
     'Interop\\Container\\' => array($vendorDir . '/container-interop/container-interop/src/Interop/Container'),
     'Http\\Promise\\' => array($vendorDir . '/php-http/promise/src'),
-    'Http\\Message\\' => array($vendorDir . '/php-http/message/src', $vendorDir . '/php-http/message-factory/src'),
+    'Http\\Message\\' => array($vendorDir . '/php-http/message-factory/src', $vendorDir . '/php-http/message/src'),
     'Http\\Discovery\\' => array($vendorDir . '/php-http/discovery/src'),
     'Http\\Client\\Common\\' => array($vendorDir . '/php-http/client-common/src'),
     'Http\\Client\\' => array($vendorDir . '/php-http/httplug/src'),
